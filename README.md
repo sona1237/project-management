@@ -1,84 +1,94 @@
-# Project management system using MERN stack (Mongodb, Express.js, React.js and Node.js) 
+# Project-management
+
+# Description
+This project is a task management application built with React and Node.js. It allows users to create projects, add tasks to projects, and export project summaries as Gists on GitHub.
+
+# Features
+Project Management: Users can create new projects with titles and descriptions.
+Task Management: Within each project, users can add, update, and delete tasks. Tasks have titles, descriptions, and statuses (pending or completed).
+Drag and Drop: Tasks can be organized using drag and drop functionality.
+Export to GitHub Gist: Users can export project summaries as Gists on GitHub, including pending and completed tasks.
+
+# Technologies Used
+
+Frontend: React, react-beautiful-dnd, axios
+
+Backend: Node.js, Express.js, MongoDB
+
+External APIs: GitHub API for Gists
+
+Others: Joi for validation, Mongoose for MongoDB object modeling
 
 
+# Installation
 
-## Setup instruction
+Clone the repository: git clone https://github.com/your-username/project-name.git
 
-- Step 1: install dependencies/node_module
-  - Go to /backend directory for backend setup and run `npm install`
+Navigate to the project directory: cd project-name
 
-  - Go to /frontend directory for frontend setup and run `npm install`
+Install dependencies:
 
-- Step 2: Configure mongodb connection url
-Go to backend directory and create .env file 
-and put into `MONGODB_PATH=your-mongodb-connection-url`
+Frontend: cd frontend && npm install
 
-- Step 3:  Change server port and cors origin (Optional)
-by default your server running in port `http://localhost:9000` and cors origin/frontend url is`http://localhost:3000` , you can change port and cors, simply put this key into your .env
-`SERVER_PORT=your-port` and` CORS_ORIGIN=-your-client-origin`
+Backend: cd backend && npm install
 
-- Step 4: Run project
-in your backend `npm run serve` for start node server and `npm run start` for frontend
+Set up environment variables:
 
-## Packages used
-- Tailwindcss
-- Headlessui
-- React router
-- Axios
-- UUID
-- Joi
-- Cors
-- Dotenv
+Create a .env file in the backend directory.
+
+Add environment variables like MONGODB_URI, GITHUB_ACCESS_TOKEN, etc.
+
+Start the backend server: npm run serve in the backend directory.
+
+Start the frontend server: npm run start in the frontend directory.
 
 
-## Project Screenshot
-#### Todo board quick preview
-![React-App](https://user-images.githubusercontent.com/96901635/191009449-0083044c-c961-45cd-9da4-7184289b9573.gif)
-#### Todo board
-![image](https://user-images.githubusercontent.com/96901635/191006996-0c185cdd-5834-47c6-8927-2e7d539866a7.png)
-#### Task insert
-![image](https://user-images.githubusercontent.com/96901635/191007092-eb25cfc8-c056-4be2-a898-00ad29d65785.png)
-#### Edit task
-![image](https://user-images.githubusercontent.com/96901635/191008217-6a0175e6-d5a9-4d98-8951-4a528d2bef99.png)
-#### Edit project
-![image](https://user-images.githubusercontent.com/96901635/191008043-8c9113a1-700f-42bb-9f87-e68db159c4dc.png)
+#  Packages used
+. Tailwindcss
+
+. Headlessui
+
+. React router
+
+. Axios
+
+. UUID
+
+. Joi
+
+. Cors
+
+. Dotenv
+
+# Usage
+Access the application in your web browser at http://localhost:3000.
+
+LOGIN PAGE
+
+![WhatsApp Image 2024-05-09 at 10 24 19_569433b8](https://github.com/sona1237/project-management-task/assets/146066244/2579a436-bd09-4bf7-8129-a0a67a91d7af)
+
+Create a new project by clicking the "Add Project" button.
+
+![WhatsApp Image 2024-05-09 at 09 53 22_66e718ad](https://github.com/sona1237/project-management-task/assets/146066244/5d1d3d11-08a7-4342-a2a5-8bbbcb07e61f)
 
 
+![WhatsApp Image 2024-05-09 at 10 31 40_4b36f821](https://github.com/sona1237/project-management-task/assets/146066244/50326010-73ac-428f-9db6-1c86dcaceed6)
 
 
-## Available Scripts
+Add tasks to the project by clicking the "Add Todo" button.
 
-In the project directory, you can run:
+![WhatsApp Image 2024-05-09 at 09 42 54_a5519871](https://github.com/sona1237/project-management-task/assets/146066244/913beea9-aedf-4a8d-aa3e-8ba5ad34c8b6)
 
-### `npm start`
+Drag and drop tasks between columns to change their status.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![WhatsApp Image 2024-05-09 at 09 41 33_7fb72854](https://github.com/sona1237/project-management-task/assets/146066244/1ae04153-a8a4-48b9-9cf3-ad91ea5ea04c)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Export the project summary to GitHub Gist by clicking the "Export Gist" button.
 
-### `npm test`
+![WhatsApp Image 2024-05-09 at 09 38 47_46b8d5be](https://github.com/sona1237/project-management-task/assets/146066244/cb17bf7e-9354-450d-9827-5ebd021755ca)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# npm test
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
