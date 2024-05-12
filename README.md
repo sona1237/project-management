@@ -1,9 +1,9 @@
-# Project-management
+### `Project-management`
 
-# Description
+### `Description`
 This project is a task management application built with React and Node.js. It allows users to create projects, add tasks to projects, and export project summaries as Gists on GitHub.
 
-# Features
+### `Features`
 Project Management: Users can create new projects with titles and descriptions.
 
 Task Management: Within each project, users can add, update, and delete tasks. Tasks have titles, descriptions, and statuses (pending or completed).
@@ -23,7 +23,7 @@ External APIs: GitHub API for Gists
 Others: Joi for validation, Mongoose for MongoDB object modeling
 
 
-# Installation
+### ` Installation`
 
 Clone the repository: git clone https://github.com/your-username/project-name.git
 
@@ -46,7 +46,7 @@ Start the backend server: npm run serve in the backend directory.
 Start the frontend server: npm run start in the frontend directory.
 
 
-#  Packages used
+###  `Packages used`
 . Tailwindcss
 
 . Headlessui
@@ -63,7 +63,7 @@ Start the frontend server: npm run start in the frontend directory.
 
 . Dotenv
 
-# Usage
+### `Usage`
 Access the application in your web browser at http://localhost:3000.
 
 LOGIN PAGE
@@ -88,14 +88,13 @@ Drag and drop tasks between columns to change their status.
 
 Export the project summary to GitHub Gist by clicking the "Export Gist" button.
 
+
+![WhatsApp Image 2024-05-09 at 09 38 47_46b8d5be](https://github.com/sona1237/project-management-task/assets/146066244/cb17bf7e-9354-450d-9827-5ebd021755ca)
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-
-
-![WhatsApp Image 2024-05-09 at 09 38 47_46b8d5be](https://github.com/sona1237/project-management-task/assets/146066244/cb17bf7e-9354-450d-9827-5ebd021755ca)
 
 
 
