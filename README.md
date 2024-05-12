@@ -4,23 +4,23 @@
 This project is a task management application built with React and Node.js. It allows users to create projects, add tasks to projects, and export project summaries as Gists on GitHub.
 
 ### `Features`
-Project Management: Users can create new projects with titles and descriptions.
+- Project Management: Users can create new projects with titles and descriptions.
 
-Task Management: Within each project, users can add, update, and delete tasks. Tasks have titles, descriptions, and statuses (pending or completed).
+- Task Management: Within each project, users can add, update, and delete tasks. Tasks have titles, descriptions, and statuses (pending or completed).
 
-Drag and Drop: Tasks can be organized using drag and drop functionality.
+- Drag and Drop: Tasks can be organized using drag and drop functionality.
 
-Export to GitHub Gist: Users can export project summaries as Gists on GitHub, including pending and completed tasks.
+- Export to GitHub Gist: Users can export project summaries as Gists on GitHub, including pending and completed tasks.
 
 ### `Technologies Used`
 
-Frontend: React, react-beautiful-dnd, axios
+- Frontend: React, react-beautiful-dnd, axios
 
-Backend: Node.js, Express.js, MongoDB
+- Backend: Node.js, Express.js, MongoDB
 
-External APIs: GitHub API for Gists
+- External APIs: GitHub API for Gists
 
-Others: Joi for validation, Mongoose for MongoDB object modeling
+- Others: Joi for validation, Mongoose for MongoDB object modeling
 
 
 ### ` Installation`
@@ -39,11 +39,11 @@ Others: Joi for validation, Mongoose for MongoDB object modeling
 
 - Create a .env file in the backend directory.
 
-- Add environment variables like MONGODB_URI, GITHUB_ACCESS_TOKEN, etc.
+- Add environment variables like ### `MONGODB_URI`, ###`GITHUB_ACCESS_TOKEN`, etc.
 
-- Start the backend server: npm run serve in the backend directory.
+- Start the backend server: ### `npm run serve` in the backend directory.
 
-- Start the frontend server: npm run start in the frontend directory.
+- Start the frontend server: ### `npm run start` in the frontend directory.
 
 
 ###  `Packages used`
