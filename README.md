@@ -5,8 +5,11 @@ This project is a task management application built with React and Node.js. It a
 
 # Features
 Project Management: Users can create new projects with titles and descriptions.
+
 Task Management: Within each project, users can add, update, and delete tasks. Tasks have titles, descriptions, and statuses (pending or completed).
+
 Drag and Drop: Tasks can be organized using drag and drop functionality.
+
 Export to GitHub Gist: Users can export project summaries as Gists on GitHub, including pending and completed tasks.
 
 # Technologies Used
@@ -85,10 +88,14 @@ Drag and drop tasks between columns to change their status.
 
 Export the project summary to GitHub Gist by clicking the "Export Gist" button.
 
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+
+
 ![WhatsApp Image 2024-05-09 at 09 38 47_46b8d5be](https://github.com/sona1237/project-management-task/assets/146066244/cb17bf7e-9354-450d-9827-5ebd021755ca)
 
 
-# npm test
 
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
