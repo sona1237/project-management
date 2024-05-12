@@ -25,43 +25,43 @@ Others: Joi for validation, Mongoose for MongoDB object modeling
 
 ### ` Installation`
 
-Clone the repository: git clone https://github.com/your-username/project-name.git
+- Clone the repository: git clone https://github.com/your-username/project-name.git
 
-Navigate to the project directory: cd project-name
+- Navigate to the project directory: cd project-name
 
-Install dependencies:
+- Install dependencies:
 
-Frontend: cd frontend && npm install
+- Frontend: cd frontend && npm install
 
-Backend: cd backend && npm install
+- Backend: cd backend && npm install
 
-Set up environment variables:
+- Set up environment variables:
 
-Create a .env file in the backend directory.
+- Create a .env file in the backend directory.
 
-Add environment variables like MONGODB_URI, GITHUB_ACCESS_TOKEN, etc.
+- Add environment variables like MONGODB_URI, GITHUB_ACCESS_TOKEN, etc.
 
-Start the backend server: npm run serve in the backend directory.
+- Start the backend server: npm run serve in the backend directory.
 
-Start the frontend server: npm run start in the frontend directory.
+- Start the frontend server: npm run start in the frontend directory.
 
 
 ###  `Packages used`
-. Tailwindcss
+- Tailwindcss
 
-. Headlessui
+- Headlessui
 
-. React router
+- React router
 
-. Axios
+- Axios
 
-. UUID
+- UUID
 
-. Joi
+- Joi
 
-. Cors
+- Cors
 
-. Dotenv
+- Dotenv
 
 ### `Usage`
 Access the application in your web browser at http://localhost:3000.
