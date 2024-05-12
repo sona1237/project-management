@@ -12,7 +12,7 @@ Drag and Drop: Tasks can be organized using drag and drop functionality.
 
 Export to GitHub Gist: Users can export project summaries as Gists on GitHub, including pending and completed tasks.
 
-# Technologies Used
+### `Technologies Used`
 
 Frontend: React, react-beautiful-dnd, axios
 
