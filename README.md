@@ -39,11 +39,11 @@ This project is a task management application built with React and Node.js. It a
 
 - Create a .env file in the backend directory.
 
-- Add environment variables like ### `MONGODB_URI`, ###`GITHUB_ACCESS_TOKEN`, etc.
+- Add environment variables like  `MONGODB_URI`, `GITHUB_ACCESS_TOKEN`, etc.
 
-- Start the backend server: ### `npm run serve` in the backend directory.
+- Start the backend server:  `npm run serve` in the backend directory.
 
-- Start the frontend server: ### `npm run start` in the frontend directory.
+- Start the frontend server:  `npm run start` in the frontend directory.
 
 
 ###  `Packages used`
